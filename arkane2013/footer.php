@@ -17,5 +17,8 @@
 
 <?php wp_footer(); ?>
 
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri();?>/js/bootstrap.min.js"></script>
+
 </body>
 </html>

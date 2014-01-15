@@ -40,6 +40,13 @@
 	<!--  Mobile Viewport Fix -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+	<!-- Bootstrap -->
+	<link href="<?php echo get_stylesheet_directory_uri();?>/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+	<link href="<?php echo get_stylesheet_directory_uri();?>/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen" />
+	<link href="<?php echo get_stylesheet_directory_uri();?>/css/style.css" rel="stylesheet" media="screen" />
+	<link href='http://fonts.googleapis.com/css?family=Prosto+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
 	<!-- Place favicon.ico and apple-touch-icons in the images folder -->
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico">
 	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon.png"><!--60X60-->
