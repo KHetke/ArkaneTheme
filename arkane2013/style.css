@@ -12,3 +12,48 @@
 
 /* Theme customization starts here
 ----------------------------------------------------- */
+
+body {
+	background-color: #000000;
+	color: #207CFF;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.container h1, h2, h3 {
+	font-family:"Prosto One";
+	color: #582c81;
+}
+
+.container h2 {
+	color: #582c81;
+}
+
+.container p, ul, ol, li {
+	font-family:"Open Sans";
+}
+
+.container {
+	width:65%;
+	margin: 0 auto;
+}
+
+.content, .sidebar, .botbar {
+	border:1px solid gray;
+	border-radius:10px;
+	padding:10px;
+	margin:10px 0;
+}
+
+a {
+	color: #ee4c37;
+}
+
+a:hover {
+	color: #009bd3;
+}
+
+a:visited {
+	color: #ee4c37;
+}

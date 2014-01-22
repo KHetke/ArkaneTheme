@@ -43,7 +43,6 @@
 	<!-- Bootstrap -->
 	<link href="<?php echo get_stylesheet_directory_uri();?>/css/bootstrap.min.css" rel="stylesheet" media="screen" />
 	<link href="<?php echo get_stylesheet_directory_uri();?>/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen" />
-	<link href="<?php echo get_stylesheet_directory_uri();?>/css/style.css" rel="stylesheet" media="screen" />
 	<link href='http://fonts.googleapis.com/css?family=Prosto+One' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
@@ -76,12 +75,13 @@
 						<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
 					</hgroup>
 					
-					<nav id="utility" role="article">
-						<?php wp_nav_menu( array( 'theme_location' => 'utility' ) ); ?>
-					</nav><!-- #utility -->
+					<!--
+					The following html creates a bar for the Nav menu
+					<div class="navbar navbar-static-top">
+						<div class="navbar-inner"> 
+					-->
 		
 					<nav id="access" role="article">
-						<h1 class="section-heading"><?php _e( 'Main menu', 'themename' ); ?></h1>
 						<div class="skip-link visuallyhidden"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'themename' ); ?>"><?php _e( 'Skip to content', 'themename' ); ?></a></div>
 						<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 					</nav><!-- #access -->
