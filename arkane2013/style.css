@@ -14,8 +14,8 @@
 ----------------------------------------------------- */
 
 body {
-	background-color: #000000;
-	color: #207CFF;
+	background-color: #080808;
+	color: #3e8fff;
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -23,11 +23,7 @@ body {
 
 .container h1, h2, h3 {
 	font-family:"Prosto One";
-	color: #582c81;
-}
-
-.container h2 {
-	color: #582c81;
+	color: #945ec7;
 }
 
 .container p, ul, ol, li {
@@ -57,3 +53,24 @@ a:hover {
 a:visited {
 	color: #ee4c37;
 }
+
+#access {
+	background-color: #282828;
+}
+
+#access:hover {
+	background-color: #080808;
+}
+
+.postlink:visited {
+	color: #945ec7;
+}
+
+::selection {
+	color:black;
+	background:white;
+}
+::-moz-selection {
+	color:black;
+	background:white;
+} 
