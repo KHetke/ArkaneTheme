@@ -80,11 +80,17 @@
 					<div class="navbar navbar-static-top">
 						<div class="navbar-inner"> 
 					-->
-		
+					
 					<nav id="access" role="article">
-						<div class="skip-link visuallyhidden"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'themename' ); ?>"><?php _e( 'Skip to content', 'themename' ); ?></a></div>
-						<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+					<div class="skip-link visuallyhidden"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'themename' ); ?>"><?php _e( 'Skip to content', 'themename' ); ?></a></div>
+					<?php wp_nav_menu( array( 
+						'theme_location' => 'primary',
+						'container_class' => 'navbar-inner',
+						'container'=> 'nav'
+					));
+					?>
 					</nav><!-- #access -->
+					
 			</header><!-- #branding -->
 		</div> <!-- .header -->
 	<!-- <div id="main" class="row-fluid"> -->
