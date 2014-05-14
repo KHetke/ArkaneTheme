@@ -83,3 +83,35 @@ a:visited {
 .call-to-action {
 	color: #ee4c37;
 }
+
+/* Category Styles */
+.post-header {
+	position: relative;
+	clear: both;
+}
+
+.post-header-figure {
+	position: absolute;
+	height: 100px;
+	clip: rect(0, 700px, 100px, 0)
+}
+
+.post-header-figure img {
+	border-radius: 20px 20px 0 0;
+}
+
+.post-h3-figure {
+	padding-top: 100px;
+}
+
+.clearfloat {
+	clear: both;
+}
+
+.post-rule {
+	border-color: #121212;
+	background-color: #121212;
+	color: #121212;
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
